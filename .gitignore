@@ -1,0 +1,31 @@
+# Dataset (Huge image directories and archives)
+Dataset/
+Dataset.zip
+*.zip
+*.tar
+*.gz
+
+# YOLO Weights (Pre-trained and custom models)
+*.pt
+runs/
+
+# Python Cache & Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE and Editor configs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp

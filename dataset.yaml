@@ -1,0 +1,15 @@
+# dataset.yaml
+path: Dataset
+train: images/train
+val: images/val
+test: images/test
+  # optional
+
+
+names:
+  0: helmet
+  1: vest
+  2: boots
+  3: no_helmet
+  4: no_vest
+  5: no_boots
