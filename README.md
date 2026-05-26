@@ -3,7 +3,6 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![YOLO](https://img.shields.io/badge/YOLO-v8%20%7C%20v11-FF2F2F?style=for-the-badge&logo=yolo&logoColor=white)](https://github.com/ultralytics/ultralytics)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 Real-time Personal Protective Equipment (PPE) detection system utilizing state-of-the-art **YOLOv8** and **YOLO11** object detection models. This system automatically scans images, videos, or live camera feeds to detect compliance with safety gear requirements (Helmets, Vests, Boots) in industrial and construction environments.
 
@@ -102,8 +101,3 @@ Ensure you have the trained weights file placed at `runs/train/ppe_yolov8n/weigh
 python predict.py
 ```
 *Tip: To test on a real-time webcam feed, uncomment the webcam source line in `predict.py`.*
-
----
-
-## ⚖️ License
-This project is open-source and licensed under the [MIT License](LICENSE).
